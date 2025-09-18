@@ -2062,7 +2062,7 @@ input, select, textarea {
 		position: relative;
 		height: 10em;
 		background: url("../../images/noise01.jpg") center center;
-		background-size: contain;
+		background-size: cover;
 		padding: 0;
 	}
 
