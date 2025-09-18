@@ -2273,6 +2273,7 @@ input, select, textarea {
 
 	#footer {
 		background: url("images/noise01.jpg");
+		background-size: cover;
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 3em;
