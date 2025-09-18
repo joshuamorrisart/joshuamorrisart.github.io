@@ -2060,7 +2060,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		position: relative;
-		height: 24em;
+		height: 10em;
 		background: url("../../images/noise01.jpg") center center;
 		background-size: contain;
 		padding: 0;
