@@ -1451,19 +1451,19 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-	header.style1 {
+	.style1 {
 		text-align: center;
 		padding: 3em 0 3em 0;
 	}
 
-		header.style1 h2 {
+		.style1 h2 {
 			font-weight: 700;
 			font-size: 2em;
 			letter-spacing: 0.075em;
 			line-height: 1.5em;
 		}
 
-		header.style1 p {
+		.style1 p {
 			color: #b1b4b9;
 			display: block;
 			margin: 1.15em 0 0 0;
@@ -1918,11 +1918,11 @@ input, select, textarea {
 
 /* Box */
 
-	.box header {
+	.box  {
 		margin: 0 0 1.5em 0;
 	}
 
-		.box header.style1 {
+		.box .style1 {
 			position: relative;
 			margin: -0.5em 0 0 0;
 			padding-top: 0;
@@ -2026,11 +2026,11 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background: #423e3b url("images/overlay.png");
+			background: #1c1b19 url("images/overlay.png");
 		}
 
 			.wrapper.style3 .title {
-				background: #423e3b url("images/overlay.png");
+				background: #1c1b19 url("images/overlay.png");
 				color: #484d55;
 			}
 
@@ -2044,9 +2044,9 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-/* Header */
+/*  */
 
-	#header {
+	# {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2066,7 +2066,7 @@ input, select, textarea {
 		padding: 0;
 	}
 
-		#header:before {
+		#:before {
 			content: '';
 			position: absolute;
 			top: 0;
@@ -2076,7 +2076,7 @@ input, select, textarea {
 			background: url("images/noise01.jpg");
 		}
 
-		.homepage #header {
+		.homepage # {
 			height: 35em;
 		}
 
