@@ -1672,7 +1672,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #ccc8bd url("images/noise01.jpg");
+			background: url("images/noise01.jpg");
 			color: #fff;
 		}
 
@@ -1723,7 +1723,7 @@ input, select, textarea {
 		input[type="reset"].style3,
 		button.style3,
 		.button.style3 {
-			background: #2f333b url("images/noise01.jpg");
+			background: url("images/noise01.jpg");
 			color: #fff;
 		}
 
@@ -2002,13 +2002,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #ccc8bd url("images/noise01.jpg");
+			background: url("images/noise01.jpg");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #ccc8bd url("images/noise01.jpg");
+				background: url("images/noise01.jpg");
 				color: #fff;
 			}
 
