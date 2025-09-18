@@ -2859,7 +2859,7 @@ input, select, textarea {
 					height: 2.5em;
 					top: -2.5em;
 					line-height: 2.5em;
-					margin-bottom: -2.5em;
+					margin-bottom: -.5em;
 					margin-left: -9em;
 					padding-top: 0.5em;
 				}
