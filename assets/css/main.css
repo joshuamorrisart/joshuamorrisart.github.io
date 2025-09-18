@@ -2272,10 +2272,10 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: url("../../images/noise01.jpg") center center;
+		background: url("images/noise01.jpg");
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
-		padding-bottom: 6em;
+		padding-bottom: 3em;
 	}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
