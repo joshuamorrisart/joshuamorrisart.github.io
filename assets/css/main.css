@@ -1672,7 +1672,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: url("images/noise01.jpg");
+			background: url("images/noise01.jpg" style="width: 1vw; min-width: 300px;);
 			color: #fff;
 		}
 
