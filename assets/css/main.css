@@ -1723,7 +1723,7 @@ input, select, textarea {
 		input[type="reset"].style3,
 		button.style3,
 		.button.style3 {
-			background: url("images/noise01.jpg");
+			background: #1c1b19 url("images/overlay.png");
 			color: #fff;
 		}
 
