@@ -1994,7 +1994,7 @@ input, select, textarea {
 				transform: scaleX(-1);
 				content: '';
 				position: absolute;
-				bottom: -38px;
+				bottom: -10px;
 				right: -35px;
 				width: 35px;
 				height: 38px;
