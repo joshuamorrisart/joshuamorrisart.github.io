@@ -2002,13 +2002,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #ccc8bd url("images/overlay.png");
+			background: #ccc8bd url("images/noise01.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #ccc8bd url("images/overlay.png");
+				background: #ccc8bd url("images/noise01.png");
 				color: #fff;
 			}
 
