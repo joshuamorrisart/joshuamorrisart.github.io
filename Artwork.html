@@ -1,181 +1,82 @@
-<!DOCTYPE HTML>
-<!--
-	Escape Velocity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Artwork</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="no-sidebar is-preload">
-		<div id="page-wrapper">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-			<html>
-	<head>
-		<title>Cradle of Briar</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="homepage is-preload">
-		<div id="page-wrapper">
+body {
+  margin: 0;
+  font-family: Arial;
+}
 
-			<!-- Header -->
-				<section id="header" class="wrapper style1">
+.header {
+  text-align: center;
+  padding: 32px;
+}
 
-					<!-- Logo -->
-						<div id="logo">
-							<h1><a href="index.html">Cradle of Briar</a></h1>
-							<p>Asleep in the bramble, organizing carbon</p>
-							<a href="index.html" class="center"><img src="images/logo.png" style="width: 1vw; min-width: 80px;" alt=""/></a>
-						</div>
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li class="current"><a href="index.html">Home</a></li>
-									<li>
-										<a href="#">Work</a>
-										<ul>
-											<li><a href="Artwork.html">Artwork</a></li>
-											<li><a href="Photography.html">Photography</a></li>
-									</ul>
-								</li>
-								<li><a href="About.html">About</a></li>
-							</ul>
-						</nav>
+.column img {
+  margin-top: 12px;
+}
 
-				</section>
-			<!-- Main -->
-				<div id="main" class="wrapper style2">
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
 
-						<!-- Content -->
+<!-- Header -->
+<div class="header">
+  <h1>Image Grid</h1>
+</div>
 
-						  	<div id="content">
-								<article class="box post">
-									<div style="text-align: center"><a href="#char6"><img src="images/TellusMaterInUmbra.jpg" style="width: 25vw; min-width: 150px;" alt="" /></div>
-										<div style="text-align: center">
-									<div style="text-align: center"><a href="#char1"><img src="images/char1.jpg" style="width: 25vw; min-width: 150px;" alt="" /></div>
-										<div style="text-align: center">
-								
-									<div style="text-align: center"><a href="#char2"><img src="images/char2.jpg" style="width: 25vw; min-width: 150px;" alt="" /></div>
-										<div style="text-align: center">
-								
-									<div style="text-align: center"><a href="#char3"><img src="images/char3.jpg" style="width: 25vw; min-width: 150px;" alt="" /></div>
-										<div style="text-align: center">
-									
-									<div style="text-align: center"><a href="#char4"><img src="images/char4.jpg" style="width: 25vw; min-width: 150px;" alt="" /></div>
-										<div style="text-align: center">
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+  <img src="images/TellusMaterInUmbra.jpg" style="width:100%">
+  <img src="/w3images/rocks.jpg" style="width:100%">
+  <img src="/w3images/falls2.jpg" style="width:100%">
+  <img src="/w3images/paris.jpg" style="width:100%">
+  <img src="/w3images/nature.jpg" style="width:100%">
+  <img src="/w3images/mist.jpg" style="width:100%">
+  <img src="/w3images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+  <img src="/w3images/underwater.jpg" style="width:100%">
+  <img src="/w3images/ocean.jpg" style="width:100%">
+  <img src="/w3images/wedding.jpg" style="width:100%">
+  <img src="/w3images/mountainskies.jpg" style="width:100%">
+  <img src="/w3images/rocks.jpg" style="width:100%">
+  <img src="/w3images/underwater.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+  <img src="/w3images/wedding.jpg" style="width:100%">
+  <img src="/w3images/rocks.jpg" style="width:100%">
+  <img src="/w3images/falls2.jpg" style="width:100%">
+  <img src="/w3images/paris.jpg" style="width:100%">
+  <img src="/w3images/nature.jpg" style="width:100%">
+  <img src="/w3images/mist.jpg" style="width:100%">
+  <img src="/w3images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+  <img src="/w3images/underwater.jpg" style="width:100%">
+  <img src="/w3images/ocean.jpg" style="width:100%">
+  <img src="/w3images/wedding.jpg" style="width:100%">
+  <img src="/w3images/mountainskies.jpg" style="width:100%">
+  <img src="/w3images/rocks.jpg" style="width:100%">
+  <img src="/w3images/underwater.jpg" style="width:100%">
+  </div>
+</div>
 
-									<div style="text-align: center"><a href="#char5"><img src="images/char5.jpg" style="width: 25vw; min-width: 150px;" alt="" /></div>
-										<div style="text-align: center">
-								
-									<a href="#_17" class="lightbox" id="char6"><img src="images/TellusMaterInUmbra.jpg"></a>
-									<a href="#_13" class="lightbox" id="char1"><img src="images/char1.jpg"></a>
-									<a href="#_14" class="lightbox" id="char2"><img src="images/char2.jpg"></a>
-									<a href="#_14" class="lightbox" id="char3"><img src="images/char3.jpg"></a>
-									<a href="#_15" class="lightbox" id="char4"><img src="images/char4.jpg"></a>
-									<a href="#_16" class="lightbox" id="char5"><img src="images/char5.jpg"></a>
-
-					</div>
-				</div>
-							
-			
-<!-- Footer -->
-				<section id="footer" class="wrapper">
-					<div class="container">
-						<div style="text-align: center">
-							
-							<p>
-								Give up the ghost<br />
-								Die by the sword
-							</p>
-						</header>
-						<div class="row">
-							<div class="col-6 col-12-medium">
-
-	<!-- Contact -->
-									<section class="feature-list small">
-										<div class="row">
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-comment">Social</h3>
-													<p>
-														<a href="https://www.instagram.com/cradleofbriar/">@cradleofbriar</a><br />
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-envelope">Email</h3>
-													<p>
-														<a href="email:joshuamorrisart@gmail.com">send me an message</a>
-													</p>
-												</section>
-											</div>
-										</div>
-									</section>
-
-							</div>
-						</div>
-					</div>
-				</section>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
