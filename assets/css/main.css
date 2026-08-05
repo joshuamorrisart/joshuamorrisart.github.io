@@ -3142,7 +3142,7 @@ body {
 	height: 0.5rem;
 	border-radius: 50%;
 	background-color: #fff;
-	opacity: 0.75;
+	opacity: 0.45;
 	transition: opacity ease 250ms;
 }
 
