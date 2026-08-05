@@ -2002,7 +2002,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #000000 url("images/overlay.png");
+			background: url("images/noise01.png") url("images/overlay.png");
 			color: #eee;
 			color: rgba(0, 0, 0, 0);
 		}
