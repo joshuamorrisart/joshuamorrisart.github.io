@@ -2064,7 +2064,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 10em;
-		background: url("images/bramble.jpg") center center;
+		background: #222835;
 		background-size: cover;
 		padding: 0;
 	}
