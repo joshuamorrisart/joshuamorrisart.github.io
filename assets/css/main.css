@@ -2027,12 +2027,12 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background:  #000000 url("images/focus.png");
+			background:  #000000
 			background-size: cover;
 		}
 
 			.wrapper.style3 .title {
-				background: #f3f3f3 url("images/focus.png");
+				background: #f3f3f3
 				background-size: cover;
 				color: #484d55;
 			}
