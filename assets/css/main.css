@@ -2027,7 +2027,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background:  #000000 url("images/focus.png");
+			background:  url("images/noise01.png") url("images/focus.png");
 			background-size: cover;
 		}
 
