@@ -2115,7 +2115,7 @@ input, select, textarea {
 	#nav {
 		position: absolute;
 		display: block;
-		top: 2.5em;
+		top: 5em;
 		left: 0;
 		width: 100%;
 		text-align: center;
@@ -2146,7 +2146,7 @@ input, select, textarea {
 					text-decoration: none;
 					font-size: 0.7em;
 					letter-spacing: 0.25em;
-					height: 5em;
+					height: 3em;
 					line-height: 5em;
 					-moz-transition: all .25s ease-in-out;
 					-webkit-transition: all .25s ease-in-out;
