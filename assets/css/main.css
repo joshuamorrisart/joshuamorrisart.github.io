@@ -2002,7 +2002,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: url("images/noise01.png") url("images/overlay.png");
+			background: #000000 url("images/overlay.png");
 			color: #eee;
 			color: rgba(0, 0, 0, 0);
 		}
@@ -2027,7 +2027,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background:  url("images/noise01.png") url("images/focus.png");
+			background:  #000000 url("images/focus.png");
 			background-size: cover;
 		}
 
