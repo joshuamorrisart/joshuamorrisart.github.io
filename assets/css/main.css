@@ -2017,17 +2017,17 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background: #1C1C1C url("images/focus.png");
+			background: #000000 url("images/focus.png");
 			background-size: cover;
 		}
 
 			.wrapper.style2 .title {
-				background: #1C1C1C;
+				background: #000000;
 				color: #C9C9C9;
 			}
 
 		.wrapper.style3 {
-			background:  #1C1C1C url("images/focus.png");
+			background:  #000000 url("images/focus.png");
 			background-size: cover;
 		}
 
