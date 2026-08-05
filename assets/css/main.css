@@ -2064,7 +2064,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 10em;
-		background: #222835;
+		background: #000000;
 		background-size: cover;
 		padding: 0;
 	}
@@ -2080,7 +2080,7 @@ input, select, textarea {
 		}
 
 		.homepage #header {
-			height: 25m;
+			height: 10m;
 		}
 
 /* Logo */
